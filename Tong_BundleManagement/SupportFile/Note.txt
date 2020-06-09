@@ -1,0 +1,18 @@
+What all features does Swift language support?
+	1.	Variables and Constants
+	2.	DataTypes
+	3.	Type Conversion
+	4.	Type Aliases
+	5.	Collections and Mutability
+	6.	Semicolons (optional and required use-case)
+	7.	Type Annotation
+	8.	Type Inference
+	9.	Type Safety
+	10.	Optionals
+	11.	Unwrapping Optionals (different ways)
+	12.	Optional Binding
+	13.	Optional Chaining
+	14.	Tuples
+	15.	Control Flow
+	16.	Closures
+	17.	Enums

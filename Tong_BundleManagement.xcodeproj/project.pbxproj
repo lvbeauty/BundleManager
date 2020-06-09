@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DB2B252471FF270012A971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB2B242471FF270012A971 /* AppDelegate.swift */; };
+		24DB2B272471FF270012A971 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB2B262471FF270012A971 /* SceneDelegate.swift */; };
+		24DB2B292471FF270012A971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB2B282471FF270012A971 /* ViewController.swift */; };
+		24DB2B2C2471FF270012A971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB2B2A2471FF270012A971 /* Main.storyboard */; };
+		24DB2B2E2471FF290012A971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DB2B2D2471FF290012A971 /* Assets.xcassets */; };
+		24DB2B312471FF290012A971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB2B2F2471FF290012A971 /* LaunchScreen.storyboard */; };
+		24DB2B3F247202410012A971 /* sample_explain.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 24DB2B3E247202410012A971 /* sample_explain.pdf */; };
+		24DB2B41247202490012A971 /* Note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24DB2B40247202490012A971 /* Note.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24DB2B212471FF270012A971 /* Tong_BundleManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tong_BundleManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB2B242471FF270012A971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DB2B262471FF270012A971 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24DB2B282471FF270012A971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DB2B2B2471FF270012A971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DB2B2D2471FF290012A971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DB2B302471FF290012A971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DB2B322471FF290012A971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB2B3E247202410012A971 /* sample_explain.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = sample_explain.pdf; sourceTree = "<group>"; };
+		24DB2B40247202490012A971 /* Note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Note.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DB2B1E2471FF270012A971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DB2B182471FF260012A971 = {
+			isa = PBXGroup;
+			children = (
+				24DB2B232471FF270012A971 /* Tong_BundleManagement */,
+				24DB2B222471FF270012A971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24DB2B222471FF270012A971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B212471FF270012A971 /* Tong_BundleManagement.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DB2B232471FF270012A971 /* Tong_BundleManagement */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B382471FF3B0012A971 /* Common */,
+				24DB2B392471FF410012A971 /* Model */,
+				24DB2B3B2471FF7D0012A971 /* View */,
+				24DB2B3C2471FF970012A971 /* Controller */,
+				24DB2B3D2471FFB50012A971 /* SupportFile */,
+			);
+			path = Tong_BundleManagement;
+			sourceTree = "<group>";
+		};
+		24DB2B382471FF3B0012A971 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B242471FF270012A971 /* AppDelegate.swift */,
+				24DB2B262471FF270012A971 /* SceneDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		24DB2B392471FF410012A971 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24DB2B3B2471FF7D0012A971 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B2A2471FF270012A971 /* Main.storyboard */,
+				24DB2B2F2471FF290012A971 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		24DB2B3C2471FF970012A971 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B282471FF270012A971 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24DB2B3D2471FFB50012A971 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				24DB2B40247202490012A971 /* Note.txt */,
+				24DB2B3E247202410012A971 /* sample_explain.pdf */,
+				24DB2B2D2471FF290012A971 /* Assets.xcassets */,
+				24DB2B322471FF290012A971 /* Info.plist */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DB2B202471FF270012A971 /* Tong_BundleManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB2B352471FF290012A971 /* Build configuration list for PBXNativeTarget "Tong_BundleManagement" */;
+			buildPhases = (
+				24DB2B1D2471FF270012A971 /* Sources */,
+				24DB2B1E2471FF270012A971 /* Frameworks */,
+				24DB2B1F2471FF270012A971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tong_BundleManagement;
+			productName = Tong_BundleManagement;
+			productReference = 24DB2B212471FF270012A971 /* Tong_BundleManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DB2B192471FF270012A971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tong Yi";
+				TargetAttributes = {
+					24DB2B202471FF270012A971 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 24DB2B1C2471FF270012A971 /* Build configuration list for PBXProject "Tong_BundleManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DB2B182471FF260012A971;
+			productRefGroup = 24DB2B222471FF270012A971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DB2B202471FF270012A971 /* Tong_BundleManagement */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DB2B1F2471FF270012A971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB2B41247202490012A971 /* Note.txt in Resources */,
+				24DB2B3F247202410012A971 /* sample_explain.pdf in Resources */,
+				24DB2B312471FF290012A971 /* LaunchScreen.storyboard in Resources */,
+				24DB2B2E2471FF290012A971 /* Assets.xcassets in Resources */,
+				24DB2B2C2471FF270012A971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DB2B1D2471FF270012A971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB2B292471FF270012A971 /* ViewController.swift in Sources */,
+				24DB2B252471FF270012A971 /* AppDelegate.swift in Sources */,
+				24DB2B272471FF270012A971 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24DB2B2A2471FF270012A971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB2B2B2471FF270012A971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DB2B2F2471FF290012A971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB2B302471FF290012A971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DB2B332471FF290012A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24DB2B342471FF290012A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DB2B362471FF290012A971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tong_BundleManagement/SupportFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tong.storyBoard.Tong-BundleManagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DB2B372471FF290012A971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tong_BundleManagement/SupportFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tong.storyBoard.Tong-BundleManagement";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DB2B1C2471FF270012A971 /* Build configuration list for PBXProject "Tong_BundleManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB2B332471FF290012A971 /* Debug */,
+				24DB2B342471FF290012A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB2B352471FF290012A971 /* Build configuration list for PBXNativeTarget "Tong_BundleManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB2B362471FF290012A971 /* Debug */,
+				24DB2B372471FF290012A971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24DB2B192471FF270012A971 /* Project object */;
+}
